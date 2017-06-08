@@ -1,0 +1,64 @@
+.container{
+  background-color: rgba(169, 190, 177, 0.69);
+  padding: 3%;
+  -webkit-box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+}
+#art {
+  background: white;
+  display: inline-block;
+  font-size: 0;
+  float: both;
+}
+.square{
+  transition: all ease 0.3s;
+}
+/*click depressed button effect*/
+.square:active {
+  -webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.square {
+  width: 10px;
+  height: 10px;
+  border: .1px solid grey;
+  display: inline-block;
+}
+
+.circle {
+  width:30px;
+  height:30px;
+  border-radius: 100%;
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+.circle:hover {
+ transform: scale(1.3);
+}
+#pallete{
+  display: flex;
+  padding:1%;
+  margin: 1% auto;
+  border: 1px solid rgb(175, 97, 5);
+  display: inline-block;
+  width:85%;
+  background-color: rgba(117, 54, 3, 0.4);
+  -webkit-box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 6px 19px 0px rgba(0,0,0,0.75);
+}
+
+#myColor{
+  width:40px;
+  height:30px;
+  border:.5px solid black;
+}
+
+h1{
+  text-align: center;
+}
